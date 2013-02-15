@@ -751,7 +751,7 @@ static NSThread *bonjourThread;
 		
 		[NSTimer scheduledTimerWithTimeInterval:[[NSDate distantFuture] timeIntervalSinceNow]
 		                                 target:self
-		                               selector:@selector(donothingatall:)
+		                               selector:nil
 		                               userInfo:nil
 		                                repeats:YES];
 		
